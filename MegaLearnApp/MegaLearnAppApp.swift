@@ -11,7 +11,13 @@ import SwiftUI
 struct MegaLearnAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMenuView()
         }
+    }
+}
+
+struct MegaLearnAppApp_Previews: PreviewProvider {
+    static var previews: some View {
+        MainMenuView()
     }
 }

@@ -1,6 +1,6 @@
 //
-//  MainMenuView.swift
-//  MegaLearnApp
+//  MainCategoriesView.swift
+//  MegaLearn
 //
 //  Created by Lars Löffler on 20.12.22.
 //
@@ -9,7 +9,14 @@ import SwiftUI
 
 struct MainMenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            PureSwiftMenuView().tabItem {
+                Label( "PureSwift", systemImage: "swift" )
+            }
+            LayoutMenuView().tabItem {
+                Label( "Layout", systemImage: "uiwindow.split.2x1" )
+            }
+        }
     }
 }
 

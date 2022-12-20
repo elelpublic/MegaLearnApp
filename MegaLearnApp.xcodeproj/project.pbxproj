@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		46D9EA852951D6D900851A72 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46D9EA832951D6D900851A72 /* README.md */; };
 		46D9EA862951D6D900851A72 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 46D9EA842951D6D900851A72 /* LICENSE */; };
+		46D9EA892951D93900851A72 /* LayoutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA872951D93900851A72 /* LayoutMenuView.swift */; };
+		46D9EA8A2951D93900851A72 /* PureSwiftMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */; };
+		46D9EA8C2951D96800851A72 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA8B2951D96800851A72 /* MainMenuView.swift */; };
+		46D9EA8E2951DA0900851A72 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 46D9EA8D2951DA0900851A72 /* .gitignore */; };
 		46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB151C2951D05800458718 /* MegaLearnAppApp.swift */; };
-		46EB151F2951D05800458718 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB151E2951D05800458718 /* ContentView.swift */; };
 		46EB15212951D05900458718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB15202951D05900458718 /* Assets.xcassets */; };
 		46EB15252951D05900458718 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB15242951D05900458718 /* Preview Assets.xcassets */; };
 		46EB152F2951D05900458718 /* MegaLearnAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB152E2951D05900458718 /* MegaLearnAppTests.swift */; };
@@ -38,9 +41,12 @@
 /* Begin PBXFileReference section */
 		46D9EA832951D6D900851A72 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		46D9EA842951D6D900851A72 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46D9EA872951D93900851A72 /* LayoutMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutMenuView.swift; sourceTree = "<group>"; };
+		46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PureSwiftMenuView.swift; sourceTree = "<group>"; };
+		46D9EA8B2951D96800851A72 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		46D9EA8D2951DA0900851A72 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		46EB15192951D05800458718 /* MegaLearnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLearnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB151C2951D05800458718 /* MegaLearnAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLearnAppApp.swift; sourceTree = "<group>"; };
-		46EB151E2951D05800458718 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46EB15202951D05900458718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46EB15222951D05900458718 /* MegaLearnApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MegaLearnApp.entitlements; sourceTree = "<group>"; };
 		46EB15242951D05900458718 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -79,6 +85,7 @@
 		46EB15102951D05800458718 = {
 			isa = PBXGroup;
 			children = (
+				46D9EA8D2951DA0900851A72 /* .gitignore */,
 				46D9EA842951D6D900851A72 /* LICENSE */,
 				46D9EA832951D6D900851A72 /* README.md */,
 				46EB151B2951D05800458718 /* MegaLearnApp */,
@@ -101,11 +108,13 @@
 		46EB151B2951D05800458718 /* MegaLearnApp */ = {
 			isa = PBXGroup;
 			children = (
+				46D9EA872951D93900851A72 /* LayoutMenuView.swift */,
+				46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */,
 				46EB151C2951D05800458718 /* MegaLearnAppApp.swift */,
-				46EB151E2951D05800458718 /* ContentView.swift */,
 				46EB15202951D05900458718 /* Assets.xcassets */,
 				46EB15222951D05900458718 /* MegaLearnApp.entitlements */,
 				46EB15232951D05900458718 /* Preview Content */,
+				46D9EA8B2951D96800851A72 /* MainMenuView.swift */,
 			);
 			path = MegaLearnApp;
 			sourceTree = "<group>";
@@ -239,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D9EA8E2951DA0900851A72 /* .gitignore in Resources */,
 				46D9EA852951D6D900851A72 /* README.md in Resources */,
 				46EB15252951D05900458718 /* Preview Assets.xcassets in Resources */,
 				46D9EA862951D6D900851A72 /* LICENSE in Resources */,
@@ -267,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB151F2951D05800458718 /* ContentView.swift in Sources */,
+				46D9EA8C2951D96800851A72 /* MainMenuView.swift in Sources */,
+				46D9EA892951D93900851A72 /* LayoutMenuView.swift in Sources */,
 				46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */,
+				46D9EA8A2951D93900851A72 /* PureSwiftMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
