@@ -13,6 +13,7 @@
 		46D9EA8A2951D93900851A72 /* PureSwiftMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */; };
 		46D9EA8C2951D96800851A72 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA8B2951D96800851A72 /* MainMenuView.swift */; };
 		46D9EA8E2951DA0900851A72 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 46D9EA8D2951DA0900851A72 /* .gitignore */; };
+		46DA5F482953206D007A0BD9 /* PureSwift_Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */; };
 		46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB151C2951D05800458718 /* MegaLearnAppApp.swift */; };
 		46EB15212951D05900458718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB15202951D05900458718 /* Assets.xcassets */; };
 		46EB15252951D05900458718 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB15242951D05900458718 /* Preview Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PureSwiftMenuView.swift; sourceTree = "<group>"; };
 		46D9EA8B2951D96800851A72 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		46D9EA8D2951DA0900851A72 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSwift_Strings.swift; sourceTree = "<group>"; };
 		46EB15192951D05800458718 /* MegaLearnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLearnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB151C2951D05800458718 /* MegaLearnAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLearnAppApp.swift; sourceTree = "<group>"; };
 		46EB15202951D05900458718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				46D9EA872951D93900851A72 /* LayoutMenuView.swift */,
 				46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */,
+				46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */,
 				46EB151C2951D05800458718 /* MegaLearnAppApp.swift */,
 				46EB15202951D05900458718 /* Assets.xcassets */,
 				46EB15222951D05900458718 /* MegaLearnApp.entitlements */,
@@ -280,6 +283,7 @@
 				46D9EA8C2951D96800851A72 /* MainMenuView.swift in Sources */,
 				46D9EA892951D93900851A72 /* LayoutMenuView.swift in Sources */,
 				46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */,
+				46DA5F482953206D007A0BD9 /* PureSwift_Strings.swift in Sources */,
 				46D9EA8A2951D93900851A72 /* PureSwiftMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,21 @@ import SwiftUI
 
 struct PureSwiftMenuView: View {
     var body: some View {
-        Text("PureSwiftMenu")
+        NavigationView {
+            NavigationLink( destination: {
+                PureSwift_Strings()
+            }, label: {
+                Text( "Strings" )
+            })
+            .navigationBarTitle("Pure Swift")
+//            List {
+//                Text("PureSwiftMenu")
+//                Text("PureSwiftMenu")
+//                Text("PureSwiftMenu")
+//                Text("PureSwiftMenu")
+//            }
+//            .navigationTitle("Pure Swift")
+        }
     }
 }
 
