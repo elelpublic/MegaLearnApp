@@ -1,5 +1,5 @@
 //
-//  PureSwiftMenu.swift
+//  LayoutMenu.swift
 //  MegaLearn
 //
 //  Created by Lars Löffler on 20.12.22.
@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct AnimationMenuView: View {
+struct LayoutMenuView: View {
     var body: some View {
         NavigationView {
             List {
                 NavigationLink( destination: {
-                    Animation_Implicit()
+                    Layout_Stacks()
                 }, label: {
-                    Text( "Implicit animation" )
+                    Text( "Stacks" )
                 })
-                .navigationBarTitle("Animation")
+//                .navigationBarTitle("Layout")
             }
         }
     }
 }
 
-struct AnimationMenuView_Previews: PreviewProvider {
+struct LayoutMenu_Previews: PreviewProvider {
     static var previews: some View {
-        AnimationMenuView()
+        LayoutMenuView()
     }
 }

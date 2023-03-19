@@ -44,7 +44,7 @@ struct Diesel {
 
 func test() {
     
-    var merc : some Vehicle = Car()
+//    var merc : some Vehicle = Car()
 //    merc = Car()
     
 }

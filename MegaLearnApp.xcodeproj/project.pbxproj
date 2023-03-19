@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46591C322959C1380083D399 /* AnimationMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46591C312959C1380083D399 /* AnimationMenuView.swift */; };
+		4625D26329C9BF970068406D /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625D26229C9BF970068406D /* StringUtils.swift */; };
+		4625D26529C9C0650068406D /* StringUtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625D26429C9C0650068406D /* StringUtilsTest.swift */; };
+		46591C322959C1380083D399 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46591C312959C1380083D399 /* Animation.swift */; };
 		46591C342959C3300083D399 /* Animation_Implicit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46591C332959C3300083D399 /* Animation_Implicit.swift */; };
 		46591C362959CAE00083D399 /* Layout_Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46591C352959CAE00083D399 /* Layout_Stacks.swift */; };
+		4699ABF229C7329C000546F2 /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699ABF129C7329C000546F2 /* Basics.swift */; };
+		4699ABF429C73548000546F2 /* PureSwift_Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699ABF329C73548000546F2 /* PureSwift_Misc.swift */; };
 		46B4FA9E29BFBEEA0003390E /* SomeAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4FA9D29BFBEEA0003390E /* SomeAny.swift */; };
 		46D9EA852951D6D900851A72 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46D9EA832951D6D900851A72 /* README.md */; };
 		46D9EA862951D6D900851A72 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 46D9EA842951D6D900851A72 /* LICENSE */; };
-		46D9EA892951D93900851A72 /* LayoutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA872951D93900851A72 /* LayoutMenuView.swift */; };
-		46D9EA8A2951D93900851A72 /* PureSwiftMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */; };
-		46D9EA8C2951D96800851A72 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA8B2951D96800851A72 /* MainMenuView.swift */; };
+		46D9EA892951D93900851A72 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA872951D93900851A72 /* Layout.swift */; };
+		46D9EA8A2951D93900851A72 /* PureSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA882951D93900851A72 /* PureSwift.swift */; };
+		46D9EA8C2951D96800851A72 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA8B2951D96800851A72 /* Main.swift */; };
 		46D9EA8E2951DA0900851A72 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 46D9EA8D2951DA0900851A72 /* .gitignore */; };
 		46DA5F482953206D007A0BD9 /* PureSwift_Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */; };
 		46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB151C2951D05800458718 /* MegaLearnAppApp.swift */; };
 		46EB15212951D05900458718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB15202951D05900458718 /* Assets.xcassets */; };
 		46EB15252951D05900458718 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB15242951D05900458718 /* Preview Assets.xcassets */; };
-		46EB152F2951D05900458718 /* MegaLearnAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB152E2951D05900458718 /* MegaLearnAppTests.swift */; };
 		46EB15392951D05900458718 /* MegaLearnAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB15382951D05900458718 /* MegaLearnAppUITests.swift */; };
 		46EB153B2951D05900458718 /* MegaLearnAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB153A2951D05900458718 /* MegaLearnAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -44,15 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46591C312959C1380083D399 /* AnimationMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationMenuView.swift; sourceTree = "<group>"; };
+		4625D26229C9BF970068406D /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		4625D26429C9C0650068406D /* StringUtilsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsTest.swift; sourceTree = "<group>"; };
+		46591C312959C1380083D399 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		46591C332959C3300083D399 /* Animation_Implicit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_Implicit.swift; sourceTree = "<group>"; };
 		46591C352959CAE00083D399 /* Layout_Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout_Stacks.swift; sourceTree = "<group>"; };
+		4699ABF129C7329C000546F2 /* Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
+		4699ABF329C73548000546F2 /* PureSwift_Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSwift_Misc.swift; sourceTree = "<group>"; };
 		46B4FA9D29BFBEEA0003390E /* SomeAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeAny.swift; sourceTree = "<group>"; };
 		46D9EA832951D6D900851A72 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		46D9EA842951D6D900851A72 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		46D9EA872951D93900851A72 /* LayoutMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutMenuView.swift; sourceTree = "<group>"; };
-		46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PureSwiftMenuView.swift; sourceTree = "<group>"; };
-		46D9EA8B2951D96800851A72 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		46D9EA872951D93900851A72 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		46D9EA882951D93900851A72 /* PureSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PureSwift.swift; sourceTree = "<group>"; };
+		46D9EA8B2951D96800851A72 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		46D9EA8D2951DA0900851A72 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSwift_Strings.swift; sourceTree = "<group>"; };
 		46EB15192951D05800458718 /* MegaLearnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLearnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +68,6 @@
 		46EB15222951D05900458718 /* MegaLearnApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MegaLearnApp.entitlements; sourceTree = "<group>"; };
 		46EB15242951D05900458718 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46EB152A2951D05900458718 /* MegaLearnAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaLearnAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB152E2951D05900458718 /* MegaLearnAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLearnAppTests.swift; sourceTree = "<group>"; };
 		46EB15342951D05900458718 /* MegaLearnAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaLearnAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB15382951D05900458718 /* MegaLearnAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLearnAppUITests.swift; sourceTree = "<group>"; };
 		46EB153A2951D05900458718 /* MegaLearnAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLearnAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -92,6 +98,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		461177EC2B2C7A9700983893 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				46D9EA8B2951D96800851A72 /* Main.swift */,
+				46D9EA882951D93900851A72 /* PureSwift.swift */,
+				46D9EA872951D93900851A72 /* Layout.swift */,
+				46591C312959C1380083D399 /* Animation.swift */,
+			);
+			path = Menus;
+			sourceTree = "<group>";
+		};
+		461177ED2B2C7BB900983893 /* PureSwift */ = {
+			isa = PBXGroup;
+			children = (
+				46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */,
+				4699ABF329C73548000546F2 /* PureSwift_Misc.swift */,
+			);
+			path = PureSwift;
+			sourceTree = "<group>";
+		};
+		461177EE2B2C7BCE00983893 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				46591C352959CAE00083D399 /* Layout_Stacks.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		461177EF2B2C7BF400983893 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				46591C332959C3300083D399 /* Animation_Implicit.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		461177F02B2C7C3F00983893 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4625D26229C9BF970068406D /* StringUtils.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		46EB15102951D05800458718 = {
 			isa = PBXGroup;
 			children = (
@@ -118,18 +168,17 @@
 		46EB151B2951D05800458718 /* MegaLearnApp */ = {
 			isa = PBXGroup;
 			children = (
-				46D9EA872951D93900851A72 /* LayoutMenuView.swift */,
-				46591C352959CAE00083D399 /* Layout_Stacks.swift */,
+				461177EC2B2C7A9700983893 /* Menus */,
+				461177ED2B2C7BB900983893 /* PureSwift */,
+				461177EE2B2C7BCE00983893 /* Layout */,
+				461177EF2B2C7BF400983893 /* Animation */,
+				461177F02B2C7C3F00983893 /* Util */,
 				46B4FA9D29BFBEEA0003390E /* SomeAny.swift */,
-				46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */,
-				46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */,
+				4699ABF129C7329C000546F2 /* Basics.swift */,
 				46EB151C2951D05800458718 /* MegaLearnAppApp.swift */,
 				46EB15202951D05900458718 /* Assets.xcassets */,
 				46EB15222951D05900458718 /* MegaLearnApp.entitlements */,
 				46EB15232951D05900458718 /* Preview Content */,
-				46D9EA8B2951D96800851A72 /* MainMenuView.swift */,
-				46591C312959C1380083D399 /* AnimationMenuView.swift */,
-				46591C332959C3300083D399 /* Animation_Implicit.swift */,
 			);
 			path = MegaLearnApp;
 			sourceTree = "<group>";
@@ -145,7 +194,7 @@
 		46EB152D2951D05900458718 /* MegaLearnAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB152E2951D05900458718 /* MegaLearnAppTests.swift */,
+				4625D26429C9C0650068406D /* StringUtilsTest.swift */,
 			);
 			path = MegaLearnAppTests;
 			sourceTree = "<group>";
@@ -223,7 +272,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					46EB15182951D05800458718 = {
 						CreatedOnToolsVersion = 14.1;
@@ -292,15 +341,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D9EA8C2951D96800851A72 /* MainMenuView.swift in Sources */,
+				4625D26329C9BF970068406D /* StringUtils.swift in Sources */,
+				46D9EA8C2951D96800851A72 /* Main.swift in Sources */,
 				46B4FA9E29BFBEEA0003390E /* SomeAny.swift in Sources */,
-				46D9EA892951D93900851A72 /* LayoutMenuView.swift in Sources */,
+				4699ABF229C7329C000546F2 /* Basics.swift in Sources */,
+				46D9EA892951D93900851A72 /* Layout.swift in Sources */,
 				46591C342959C3300083D399 /* Animation_Implicit.swift in Sources */,
-				46591C322959C1380083D399 /* AnimationMenuView.swift in Sources */,
+				46591C322959C1380083D399 /* Animation.swift in Sources */,
 				46591C362959CAE00083D399 /* Layout_Stacks.swift in Sources */,
 				46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */,
 				46DA5F482953206D007A0BD9 /* PureSwift_Strings.swift in Sources */,
-				46D9EA8A2951D93900851A72 /* PureSwiftMenuView.swift in Sources */,
+				46D9EA8A2951D93900851A72 /* PureSwift.swift in Sources */,
+				4699ABF429C73548000546F2 /* PureSwift_Misc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB152F2951D05900458718 /* MegaLearnAppTests.swift in Sources */,
+				4625D26529C9C0650068406D /* StringUtilsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,9 +422,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -428,9 +482,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -454,8 +510,9 @@
 				CODE_SIGN_ENTITLEMENTS = MegaLearnApp/MegaLearnApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MegaLearnApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 979L6UN4G9;
+				DEVELOPMENT_TEAM = 7F7UVLA3XJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -492,8 +549,9 @@
 				CODE_SIGN_ENTITLEMENTS = MegaLearnApp/MegaLearnApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MegaLearnApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 979L6UN4G9;
+				DEVELOPMENT_TEAM = 7F7UVLA3XJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -529,7 +587,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 979L6UN4G9;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7F7UVLA3XJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -552,7 +611,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 979L6UN4G9;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7F7UVLA3XJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -574,7 +634,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 979L6UN4G9;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7F7UVLA3XJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -596,7 +657,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 979L6UN4G9;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7F7UVLA3XJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;

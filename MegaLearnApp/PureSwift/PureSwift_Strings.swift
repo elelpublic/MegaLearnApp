@@ -15,23 +15,19 @@ struct PureSwift_Strings: View {
 **String interpolation**
 
 let x = 10
-print( "I am \\\\(x) years old and I can eat \\\\(x*2) candies." )
+print( "I am \\\\(x) years old and I can eat \\\\(x*2) candies.\\n\\n" + StringUtils.lorem( paragraphs: 10, words: 40 ) )
 
 ***output***:
+
 """)
                 let x = 10
                 let s = "I am \(x) years old and I can eat \(x*2) candies."
                 Text( s )                
-                Text("""
-
-Use triple quotes \""" for **multiline strings**:
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-""")
+                Text("Use triple quotes \"\"\" for **multiline strings**:\n\n" + StringUtils.lorem( paragraphs: 10, words: 40 ))
                 Spacer()
             }
         }
-        .navigationBarTitle("Strings in Swift")
+//        .navigationBarTitle("Strings in Swift")
         .padding(30)
     }
 }

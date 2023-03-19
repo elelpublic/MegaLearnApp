@@ -16,7 +16,12 @@ struct PureSwiftMenuView: View {
                 }, label: {
                     Text( "Strings" )
                 })
-                .navigationBarTitle("Pure Swift")
+                NavigationLink( destination: {
+                    PureSwift_Misc()
+                }, label: {
+                    Text( "Misc" )
+                })
+//                .navigationBarTitle("Pure Swift")
             }
         }
     }
