@@ -16,6 +16,9 @@ struct MainMenuView: View {
             LayoutMenuView().tabItem {
                 Label( "Layout", systemImage: "uiwindow.split.2x1" )
             }
+            AnimationMenuView().tabItem {
+                Label( "Layout", systemImage: "play.circle" )
+            }
         }
     }
 }
