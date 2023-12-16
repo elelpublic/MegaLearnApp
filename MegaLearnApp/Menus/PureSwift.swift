@@ -21,7 +21,11 @@ struct PureSwiftMenuView: View {
                 }, label: {
                     Text( "Misc" )
                 })
+<<<<<<< HEAD:MegaLearnApp/Menus/PureSwift.swift
 //                .navigationBarTitle("Pure Swift")
+=======
+                .navigationBarTitle("Pure Swift")
+>>>>>>> main:MegaLearnApp/PureSwiftMenuView.swift
             }
         }
     }
