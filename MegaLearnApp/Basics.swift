@@ -156,7 +156,6 @@ func main() -> String {
   
   out.add( "10 times 2 is \(times2(aliasName:10))" )
   
-<<<<<<< HEAD
   struct Universe {
     var universeName: String
     init( builder: (String) -> String ) {
@@ -169,20 +168,6 @@ func main() -> String {
   }
   
   out.add( "Universe: \(universe)" )
-=======
-  struct World {
-    var worldName: String
-    init( builder: (String) -> String ) {
-      worldName = builder("Version 1.0")
-    }
-  }
-  
-  let world = World { inputString in
-    return inputString.uppercased()
-  }
-  
-  out.add( "World: \(world)" )
->>>>>>> main
   
   let from = 0
   let to = 10
@@ -227,7 +212,6 @@ func main() -> String {
   out.add( "Birthday is \(e.birthdate)" )
   out.add( "Age is \(e.age)" )
   
-<<<<<<< HEAD
   let helloworld = "Hello World!"
   let hello = String( helloworld.prefix( 5 ) )
   let world = String( helloworld.suffix( 6 ) )
@@ -241,8 +225,6 @@ func main() -> String {
 //  let rgb = "RRGGBB"
 //  let r = rgb.substring(to: <#T##String.Index#>)
   
-=======
->>>>>>> main
   return out.toString()
   
 }

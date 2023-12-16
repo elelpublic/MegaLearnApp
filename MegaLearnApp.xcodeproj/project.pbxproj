@@ -174,24 +174,11 @@
 				461177EF2B2C7BF400983893 /* Animation */,
 				461177F02B2C7C3F00983893 /* Util */,
 				46B4FA9D29BFBEEA0003390E /* SomeAny.swift */,
-<<<<<<< HEAD
 				4699ABF129C7329C000546F2 /* Basics.swift */,
-=======
-				46D9EA882951D93900851A72 /* PureSwiftMenuView.swift */,
-				46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */,
-				4699ABF329C73548000546F2 /* PureSwift_Misc.swift */,
->>>>>>> main
 				46EB151C2951D05800458718 /* MegaLearnAppApp.swift */,
 				46EB15202951D05900458718 /* Assets.xcassets */,
 				46EB15222951D05900458718 /* MegaLearnApp.entitlements */,
 				46EB15232951D05900458718 /* Preview Content */,
-<<<<<<< HEAD
-=======
-				46D9EA8B2951D96800851A72 /* MainMenuView.swift */,
-				46591C312959C1380083D399 /* AnimationMenuView.swift */,
-				46591C332959C3300083D399 /* Animation_Implicit.swift */,
-				4699ABF129C7329C000546F2 /* Basics.swift */,
->>>>>>> main
 			);
 			path = MegaLearnApp;
 			sourceTree = "<group>";
@@ -358,21 +345,13 @@
 				46D9EA8C2951D96800851A72 /* Main.swift in Sources */,
 				46B4FA9E29BFBEEA0003390E /* SomeAny.swift in Sources */,
 				4699ABF229C7329C000546F2 /* Basics.swift in Sources */,
-<<<<<<< HEAD
 				46D9EA892951D93900851A72 /* Layout.swift in Sources */,
-=======
-				46D9EA892951D93900851A72 /* LayoutMenuView.swift in Sources */,
->>>>>>> main
 				46591C342959C3300083D399 /* Animation_Implicit.swift in Sources */,
 				46591C322959C1380083D399 /* Animation.swift in Sources */,
 				46591C362959CAE00083D399 /* Layout_Stacks.swift in Sources */,
 				46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */,
 				46DA5F482953206D007A0BD9 /* PureSwift_Strings.swift in Sources */,
-<<<<<<< HEAD
-				46D9EA8A2951D93900851A72 /* PureSwift.swift in Sources */,
-=======
 				46D9EA8A2951D93900851A72 /* PureSwiftMenuView.swift in Sources */,
->>>>>>> main
 				4699ABF429C73548000546F2 /* PureSwift_Misc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
