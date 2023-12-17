@@ -8,16 +8,16 @@
 import SwiftUI
 
 @main
-struct MegaLearnAppApp: App {
+struct MegaLearnApp: App {
     var body: some Scene {
         WindowGroup {
-            MainMenuView()
+            Main()
         }
     }
 }
 
-struct MegaLearnAppApp_Previews: PreviewProvider {
+struct App_Previews: PreviewProvider {
     static var previews: some View {
-        MainMenuView()
+        Main()
     }
 }

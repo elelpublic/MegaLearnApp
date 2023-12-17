@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4625D26329C9BF970068406D /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625D26229C9BF970068406D /* StringUtils.swift */; };
 		4625D26529C9C0650068406D /* StringUtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625D26429C9C0650068406D /* StringUtilsTest.swift */; };
+		4636988F2B2DF1110098B680 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4636988E2B2DF1110098B680 /* Navigation.swift */; };
 		46591C322959C1380083D399 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46591C312959C1380083D399 /* Animation.swift */; };
 		46591C342959C3300083D399 /* Animation_Implicit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46591C332959C3300083D399 /* Animation_Implicit.swift */; };
 		46591C362959CAE00083D399 /* Layout_Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46591C352959CAE00083D399 /* Layout_Stacks.swift */; };
@@ -22,7 +23,7 @@
 		46D9EA8C2951D96800851A72 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9EA8B2951D96800851A72 /* Main.swift */; };
 		46D9EA8E2951DA0900851A72 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 46D9EA8D2951DA0900851A72 /* .gitignore */; };
 		46DA5F482953206D007A0BD9 /* PureSwift_Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */; };
-		46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB151C2951D05800458718 /* MegaLearnAppApp.swift */; };
+		46EB151D2951D05800458718 /* MegaLearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB151C2951D05800458718 /* MegaLearnApp.swift */; };
 		46EB15212951D05900458718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB15202951D05900458718 /* Assets.xcassets */; };
 		46EB15252951D05900458718 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB15242951D05900458718 /* Preview Assets.xcassets */; };
 		46EB15392951D05900458718 /* MegaLearnAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB15382951D05900458718 /* MegaLearnAppUITests.swift */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		4625D26229C9BF970068406D /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		4625D26429C9C0650068406D /* StringUtilsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsTest.swift; sourceTree = "<group>"; };
+		4636988E2B2DF1110098B680 /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		46591C312959C1380083D399 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		46591C332959C3300083D399 /* Animation_Implicit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_Implicit.swift; sourceTree = "<group>"; };
 		46591C352959CAE00083D399 /* Layout_Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout_Stacks.swift; sourceTree = "<group>"; };
@@ -63,7 +65,7 @@
 		46D9EA8D2951DA0900851A72 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		46DA5F472953206D007A0BD9 /* PureSwift_Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSwift_Strings.swift; sourceTree = "<group>"; };
 		46EB15192951D05800458718 /* MegaLearnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLearnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB151C2951D05800458718 /* MegaLearnAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLearnAppApp.swift; sourceTree = "<group>"; };
+		46EB151C2951D05800458718 /* MegaLearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLearnApp.swift; sourceTree = "<group>"; };
 		46EB15202951D05900458718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46EB15222951D05900458718 /* MegaLearnApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MegaLearnApp.entitlements; sourceTree = "<group>"; };
 		46EB15242951D05900458718 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				46D9EA8B2951D96800851A72 /* Main.swift */,
 				46D9EA882951D93900851A72 /* PureSwift.swift */,
 				46D9EA872951D93900851A72 /* Layout.swift */,
+				4636988E2B2DF1110098B680 /* Navigation.swift */,
 				46591C312959C1380083D399 /* Animation.swift */,
 			);
 			path = Menus;
@@ -175,7 +178,7 @@
 				461177F02B2C7C3F00983893 /* Util */,
 				46B4FA9D29BFBEEA0003390E /* SomeAny.swift */,
 				4699ABF129C7329C000546F2 /* Basics.swift */,
-				46EB151C2951D05800458718 /* MegaLearnAppApp.swift */,
+				46EB151C2951D05800458718 /* MegaLearnApp.swift */,
 				46EB15202951D05900458718 /* Assets.xcassets */,
 				46EB15222951D05900458718 /* MegaLearnApp.entitlements */,
 				46EB15232951D05900458718 /* Preview Content */,
@@ -349,9 +352,10 @@
 				46591C342959C3300083D399 /* Animation_Implicit.swift in Sources */,
 				46591C322959C1380083D399 /* Animation.swift in Sources */,
 				46591C362959CAE00083D399 /* Layout_Stacks.swift in Sources */,
-				46EB151D2951D05800458718 /* MegaLearnAppApp.swift in Sources */,
+				46EB151D2951D05800458718 /* MegaLearnApp.swift in Sources */,
+				4636988F2B2DF1110098B680 /* Navigation.swift in Sources */,
 				46DA5F482953206D007A0BD9 /* PureSwift_Strings.swift in Sources */,
-				46D9EA8A2951D93900851A72 /* PureSwiftMenuView.swift in Sources */,
+				46D9EA8A2951D93900851A72 /* PureSwift.swift in Sources */,
 				4699ABF429C73548000546F2 /* PureSwift_Misc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

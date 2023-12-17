@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AnimationMenuView: View {
+struct Animation: View {
     var body: some View {
         NavigationView {
             List {
@@ -22,8 +22,8 @@ struct AnimationMenuView: View {
     }
 }
 
-struct AnimationMenuView_Previews: PreviewProvider {
+struct Animation_Previews: PreviewProvider {
     static var previews: some View {
-        AnimationMenuView()
+        Animation()
     }
 }

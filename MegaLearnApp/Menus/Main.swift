@@ -7,24 +7,27 @@
 
 import SwiftUI
 
-struct MainMenuView: View {
+struct Main: View {
     var body: some View {
         TabView {
-            PureSwiftMenuView().tabItem {
+            PureSwift().tabItem {
                 Label( "PureSwift", systemImage: "swift" )
             }
-            LayoutMenuView().tabItem {
+            Navigation().tabItem {
+                Label( "Navigation", systemImage: "tree" )
+            }
+            Layout().tabItem {
                 Label( "Layout", systemImage: "uiwindow.split.2x1" )
             }
-            AnimationMenuView().tabItem {
+            Animation().tabItem {
                 Label( "Animation", systemImage: "play.circle" )
             }
         }
     }
 }
 
-struct MainMenuView_Previews: PreviewProvider {
+struct Main_Previews: PreviewProvider {
     static var previews: some View {
-        MainMenuView()
+        Main()
     }
 }
